@@ -1,0 +1,21 @@
+{
+  "name": "wmcc-redis",
+  "version": "1.0.0-beta.1",
+  "description": "WMCC Redis - WMCC Exchange Market Data",
+  "repository": "git://github.com/worldmobilecoin/wmcc-redis.git",
+  "homepage": "https://github.com/worldmobilecoin/wmcc-redis",
+  "bugs": {
+    "url": "https://github.com/worldmobilecoin/wmcc-redis/issues"
+  },
+  "author": "ParkAlter@WorldMobileCoin <worldmobilecoin@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "main": "./lib/wmcc-redis.js",
+  "dependencies": {
+    "ioredis": "4.0.0",
+    "wmcc-logger": "*"
+  },
+  "license": "MIT"
+}
